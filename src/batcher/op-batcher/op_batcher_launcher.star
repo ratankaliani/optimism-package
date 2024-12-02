@@ -91,6 +91,7 @@ def get_batcher_config(
         "--l1-eth-rpc=" + l1_config_env_vars["L1_RPC_URL"],
         "--private-key=" + gs_batcher_private_key,
         "--data-availability-type=blobs",
+        "--batch-type=1"
     ]
 
     cmd += batcher_params.extra_params

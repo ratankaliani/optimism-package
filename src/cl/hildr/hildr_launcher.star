@@ -179,7 +179,7 @@ def get_beacon_config(
     )
 
     if sequencer_enabled:
-        cmd.append("--sequencer-enable")
+        cmd.append("--sequencer-enabled")
 
     # sequencer private key can't be used by hildr yet
 

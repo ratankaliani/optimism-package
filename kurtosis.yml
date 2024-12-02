@@ -1,3 +1,4 @@
+# The Kurtosis package name must match the repository.
 name: "github.com/ratankaliani/optimism-package"
 description: |
   # Optimism Package
